@@ -1,5 +1,9 @@
 pub mod initialize;
-pub mod increment;
+pub mod mint_asset;
+pub mod position;
+pub mod stake;
 
 pub use initialize::*;
-pub use increment::*;
+pub use mint_asset::*;
+pub use position::*;
+pub use stake::*;
